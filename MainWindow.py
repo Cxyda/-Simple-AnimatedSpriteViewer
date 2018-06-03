@@ -26,9 +26,6 @@ class MainWindow(Gtk.Window):
         self.quit = False
         self.create_window_layout()
 
-        # open this animation by default
-        self.setup_sprite_animation("./SpriteAnimations/character.png")
-
     # Creates the animation frame
     def create_animation_frame(self):
         self.animation_frame = Gtk.Frame(label="Animation")
